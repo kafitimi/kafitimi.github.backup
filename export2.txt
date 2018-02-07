@@ -1,0 +1,11 @@
+#!/bin/bash
+GITUSER=`git config user.name`
+GITEMAIL=`git config user.email`
+git config user.name "Alexander Pavlov"
+git config user.email "av.pavlov@s-vfu.ru"
+git add .
+git commit -m "L1 deadline"
+git push
+git config user.name "$GITUSER"
+git config user.email "$GITEMAil"
+
