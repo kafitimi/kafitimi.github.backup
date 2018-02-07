@@ -1,2 +1,4 @@
 #!/bin/bash
 GITUSER=`git config user.name`
+GITEMAIL=`git config user.email`
+echo $GITUSER
